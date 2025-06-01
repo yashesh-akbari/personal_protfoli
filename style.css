@@ -323,7 +323,7 @@ ul li a:visited{
     /* align-items: center;  */
     justify-content: center;
     display: flex;
-    margin-bottom: 120px;    /* Center items horizontally */
+    margin-bottom: 150px;    /* Center items horizontally */
   }
   .about_img_div{
     margin-bottom: 0px;
@@ -708,9 +708,10 @@ ul li a:visited{
  .card_e{
   background-color: #1A1A1A;
   padding: 20px;
-  margin: 25px;
-  height: 50vh;
+  /* margin: 25px; */
+  height: 53vh;
   width: 65vw;
+  margin-bottom: 10px;
  }
  }
 
@@ -795,7 +796,7 @@ ul li a:visited{
   background-color: #1A1A1A;
   padding: 20px;
   margin: 10px;
-  height: 110vh;
+  height: 120vh;
   width: 150vh;
  } 
  .trip{
@@ -809,7 +810,7 @@ ul li a:visited{
   padding: 20px;
   /* margin: 25px; */
   margin: 20px;
-  height: 150vh;
+  height: 120vh;
   width: 100vh;
  } 
  .trip{
