@@ -797,7 +797,7 @@ ul li a:visited{
  } 
  .trip{
   height: 60vh;
-  width: 70vw;
+  width: 60vw;
 }
 }
 @media screen and (max-width:350px) {
