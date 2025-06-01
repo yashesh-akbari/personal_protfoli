@@ -138,6 +138,11 @@ ul li a:visited{
             border-radius: 20vw;
   /* color: black; */
  }
+ .my_work_button:hover{
+  background-color: #FFBD39;
+  opacity: 0.8;
+  color: white;
+ }
  .my_work_button a{
    text-decoration: none;
    color: black;
@@ -274,7 +279,7 @@ ul li a:visited{
   padding: 25px;
   text-decoration: none;
   color: black;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 .about_link:hover{
   background-color: #ffbd39d6;
@@ -469,7 +474,7 @@ ul li a:visited{
   background-color: #1A1A1A;
   padding: 20px;
   margin: 20px;
-  height: 90vh;
+  height: 95vh;
   width: 40vw;
  }
  .card_h2{
@@ -536,13 +541,13 @@ ul li a:visited{
   background-color: #1A1A1A;
  }
  .card_h4{
-  font-size: 3vh;
+  font-size: 3.5vh;
   color: aliceblue;
   margin-bottom: 10px;
   background-color: #1A1A1A;
  }
  .card_p{
-  font-size: 3vh;
+  font-size: 3.5vh;
   margin-bottom: 10px;
   background-color: #1A1A1A;
  }
@@ -552,6 +557,7 @@ ul li a:visited{
  }
  .card_li{
   margin-bottom: 10px;
+  font-size: 3vh;
   background-color: #1A1A1A;
  }
 }
@@ -593,6 +599,7 @@ ul li a:visited{
  }
  .card_p{
   font-size: 2.5vh;
+  margin: 0px;
   margin-bottom: 10px;
   background-color: #1A1A1A;
  }
@@ -708,7 +715,6 @@ ul li a:visited{
  #project{
   margin: 20px;
   padding-top: 30px;
-
 }
 .project_heading{
   text-align: center;
@@ -725,46 +731,68 @@ ul li a:visited{
   justify-content: center;
   align-items: center;
 }
-.trip{
-  height: 30vh;
-  width: 30vw;
+.project_heading:hover{
+  color: #FFBD39;
 }
 /* .trip:hover{
   zoom: 1.05;
 } */
 
 /*project card*/
- .card_p{
+.project_link{
+  background-color: #FFBD39;
+  padding: 25px;
+  text-decoration: none;
+  color: black;
+  border-radius: 30px;
+}
+.project_link:hover{
+  background-color: #ffbd39d6;
+  opacity: 100%;
+  text-decoration: none;
+  color: white;
+}
+.project_link_span{
+  justify-content: center;
+  left: 50%;
+  right: 50%;
+  display: flex;
+}
+ .card_project{
   background-color: #1A1A1A;
   padding: 20px;
-  margin: 40px;
-  height: 80vh;
-  width: 31vw;
+  margin: 20px;
+  height: 90vh;
+  width: 25vw;
  }
- .full-card-p{
-  justify-content: space-around;
- }
+ .trip{
+  height: 30vh;
+  width: 25vw;
+}
  
 
-@media screen and (max-width:1000px) {
- .card_p{
+@media screen and (max-width:1120px) {
+ .card_project{
   background-color: #1A1A1A;
-  padding: 50px;
+  padding: 20px;
   margin: 10px;
-  height: 80vh;
-  width: 30vw;
+  height: 90vh;
+  width: 35vw;
  }
  .trip{
   height: 30vh;
   width: 30vw;
 }
+.full-card-p{
+  justify-content: space-evenly;
+}
 }
 @media screen and (max-width:700px) {
-  .card_p{
+  .card_project{
   background-color: #1A1A1A;
-  padding: 60px;
-  margin: 25px;
-  height: 90vh;
+  padding: 20px;
+  margin: 10px;
+  height: 110vh;
   width: 100vh;
  } 
  .trip{
@@ -772,12 +800,13 @@ ul li a:visited{
   width: 70vw;
 }
 }
-@media screen and (max-width:700px) {
-  .card_p{
+@media screen and (max-width:350px) {
+  .card_project{
   background-color: #1A1A1A;
-  padding: 60px;
-  margin: 25px;
-  height: 120vh;
+  padding: 20px;
+  /* margin: 25px; */
+  margin: 20px;
+  height: 150vh;
   width: 100vh;
  } 
  .trip{
