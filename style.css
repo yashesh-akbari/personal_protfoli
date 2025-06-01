@@ -323,7 +323,7 @@ ul li a:visited{
     /* align-items: center;  */
     justify-content: center;
     display: flex;
-    margin-bottom: 100px;    /* Center items horizontally */
+    margin-bottom: 120px;    /* Center items horizontally */
   }
   .about_img_div{
     margin-bottom: 0px;
