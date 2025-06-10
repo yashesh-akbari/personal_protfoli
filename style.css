@@ -633,7 +633,7 @@ ul li a:visited{
   margin: 15px;
   height: 85vh;
   width: 70vw;
-
+  overflow: hidden;
  }
  .card_h2{
   color: #FFBD39;
