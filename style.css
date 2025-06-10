@@ -683,7 +683,7 @@ ul li a:visited{
   background-color: #1A1A1A;
   padding: 25px;
   margin: 5px;
-  height: 150vh;
+  height: 170vh;
   width: 70vw;
  }
  .card_h2{
@@ -762,7 +762,7 @@ ul li a:visited{
   background-color: #1A1A1A;
   padding: 10px;
   /* margin: 25px; */
-  height: 65vh;
+  height: 75vh;
   width: 70vw;
   margin-bottom: 10px;
  }
@@ -863,7 +863,7 @@ ul li a:visited{
   padding: 20px;
   /* margin: 25px; */
   margin: 20px;
-  height: 150vh;
+  height: 180vh;
   width: 100vh;
  } 
  .trip{
