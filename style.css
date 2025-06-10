@@ -760,10 +760,10 @@ ul li a:visited{
 @media screen and (max-width:350px) {
  .card_e{
   background-color: #1A1A1A;
-  padding: 10px;
+  padding: 20px;
   /* margin: 25px; */
-  height: 75vh;
-  width: 70vw;
+  height: 55vh;
+  width: 80vw;
   margin-bottom: 10px;
  }
  }
@@ -863,7 +863,7 @@ ul li a:visited{
   padding: 20px;
   /* margin: 25px; */
   margin: 20px;
-  height: 180vh;
+  height: 150vh;
   width: 100vh;
  } 
  .trip{
