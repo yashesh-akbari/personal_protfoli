@@ -630,9 +630,10 @@ ul li a:visited{
  .card{
   background-color: #1A1A1A;
   padding: 25px;
-  margin: 5px;
-  height: 90vh;
-  width: 100%;
+  margin: 15px;
+  height: 85vh;
+  width: 70vw;
+
  }
  .card_h2{
   color: #FFBD39;
@@ -666,6 +667,58 @@ ul li a:visited{
   background-color: #1A1A1A;
  }
 }
+
+@media screen and (max-width:300px) {
+  .resume_heading{
+  text-align: center;
+  font-size: 6vh;
+  margin: 20px;
+}
+.resume_p{
+  text-align: center;
+  font-size: 3vh;
+}
+
+ .card{
+  background-color: #1A1A1A;
+  padding: 25px;
+  margin: 5px;
+  height: 120vh;
+  width: 70vw;
+ }
+ .card_h2{
+  color: #FFBD39;
+  font-size: 5vh;
+  margin-bottom: 10px;
+  background-color: #1A1A1A;
+ }
+ .card_h3{
+  font-size: 4.5vh;
+  margin-bottom: 10px;
+  color: white;
+  background-color: #1A1A1A;
+ }
+ .card_h4{
+  font-size: 3.5vh;
+  color: aliceblue;
+  margin-bottom: 10px;
+  background-color: #1A1A1A;
+ }
+ .card_p{
+  font-size: 2.5vh;
+  margin-bottom: 10px;
+  background-color: #1A1A1A;
+ }
+ .card_ul{
+  padding-left: 40px;
+  background-color: #1A1A1A;
+ }
+ .card_li{
+  margin-bottom: 10px;
+  background-color: #1A1A1A;
+ }
+}
+
 
 /*education card*/
 
@@ -709,8 +762,8 @@ ul li a:visited{
   background-color: #1A1A1A;
   padding: 20px;
   /* margin: 25px; */
-  height: 53vh;
-  width: 65vw;
+  height: 58vh;
+  width: 70vw;
   margin-bottom: 10px;
  }
  }
@@ -810,7 +863,7 @@ ul li a:visited{
   padding: 20px;
   /* margin: 25px; */
   margin: 20px;
-  height: 120vh;
+  height: 140vh;
   width: 100vh;
  } 
  .trip{
