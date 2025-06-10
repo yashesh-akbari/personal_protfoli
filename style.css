@@ -632,8 +632,11 @@ ul li a:visited{
   padding: 25px;
   margin: 15px;
   height: 85vh;
-  width: 70vw;
+  /* width: 70vw;
+   */
+   width: 100%;
   overflow: hidden;
+  word-wrap: break-word;
  }
  .card_h2{
   color: #FFBD39;
@@ -864,7 +867,10 @@ ul li a:visited{
   /* margin: 25px; */
   margin: 20px;
   height: 140vh;
-  width: 100vh;
+  /* width: 100vh; */
+     width: 100%;
+  overflow: hidden;
+  word-wrap: break-word;
  } 
  .trip{
   height: 35vh;
