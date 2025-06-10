@@ -868,13 +868,13 @@ ul li a:visited{
   margin: 20px;
   height: 140vh;
   /* width: 100vh; */
-     width: 100%;
+     width: 100vh;
   overflow: hidden;
   word-wrap: break-word;
  } 
  .trip{
   height: 35vh;
-  width: 75vw;
+  width: 75vh;
 }
 }
 
