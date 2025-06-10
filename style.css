@@ -760,7 +760,7 @@ ul li a:visited{
   width: 80vh;
  } 
 }
-@media screen and (max-width:350px) {
+@media screen and (max-width:412px) {
  .card_e{
   background-color: #1A1A1A;
   padding: 10px;
@@ -768,9 +768,9 @@ ul li a:visited{
   height: auto;
   width: 80vw;
   margin-bottom: 10px;
-  overflow: hidden;
+  /* overflow: hidden;
     word-wrap: break-word;
-    box-sizing: border-box;
+    box-sizing: border-box; */
  }
  }
 
@@ -863,7 +863,7 @@ ul li a:visited{
   width: 75vw;
 }
 }
-@media screen and (max-width:350px) {
+@media screen and (max-width:412px) {
   .card_project{
   background-color: #1A1A1A;
   padding: 10px;
