@@ -768,6 +768,9 @@ ul li a:visited{
   height: auto;
   width: 80vw;
   margin-bottom: 10px;
+  overflow: hidden;
+    word-wrap: break-word;
+    box-sizing: border-box;
  }
  }
 
@@ -869,12 +872,13 @@ ul li a:visited{
   height: auto;
   /* width: 100vh; */
      width: 120vh;
-  /* overflow: hidden;
-  word-wrap: break-word; */
+overflow: hidden;
+    word-wrap: break-word;
+    box-sizing: border-box;
  } 
  .trip{
   height: auto;
-  width: 40vh;
+  width: 100%;
   object-fit: cover;
 }
 }
