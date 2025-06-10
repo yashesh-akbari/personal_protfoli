@@ -869,8 +869,8 @@ ul li a:visited{
   height: auto;
   /* width: 100vh; */
      width: 120vh;
-  overflow: hidden;
-  word-wrap: break-word;
+  /* overflow: hidden;
+  word-wrap: break-word; */
  } 
  .trip{
   height: auto;
