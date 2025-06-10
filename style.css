@@ -786,7 +786,7 @@ ul li a:visited{
 }
 .project_p{
   text-align: center;
-  font-size: 3vh;
+  font-size: 2.5vh;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -863,18 +863,18 @@ ul li a:visited{
 @media screen and (max-width:350px) {
   .card_project{
   background-color: #1A1A1A;
-  padding: 20px;
+  padding: 10px;
   /* margin: 25px; */
   margin: 20px;
   height: 160vh;
   /* width: 100vh; */
-     width: 100vh;
+     width: 90vh;
   overflow: hidden;
   word-wrap: break-word;
  } 
  .trip{
-  height: 35vh;
-  width: 75vh;
+  height: 40vh;
+  width: 40vh;
 }
 }
 
